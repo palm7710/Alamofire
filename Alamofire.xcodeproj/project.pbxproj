@@ -6,7 +6,7 @@
 	objectVersion = 77;
 	objects = {
 
-/* Begin PBXBuildFile section */
+/* PBXBuildFile セクション開始 */
 		3106FB6123F8C53A007FAB43 /* ProtectedTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3106FB6023F8C53A007FAB43 /* ProtectedTests.swift */; };
 		3106FB6223F8C53A007FAB43 /* ProtectedTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3106FB6023F8C53A007FAB43 /* ProtectedTests.swift */; };
 		3106FB6323F8C53A007FAB43 /* ProtectedTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3106FB6023F8C53A007FAB43 /* ProtectedTests.swift */; };
@@ -607,47 +607,47 @@
 		F829C6BF1A7A950600A2CD59 /* RequestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8111E5D19A9674D0040E7D1 /* RequestTests.swift */; };
 		F8858DDD19A96B4300F55F93 /* RequestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8111E5D19A9674D0040E7D1 /* RequestTests.swift */; };
 		F897FF4119AA800700AB5182 /* Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = F897FF4019AA800700AB5182 /* Alamofire.swift */; };
-/* End PBXBuildFile section */
+/* PBXBuildFile セクション終了 */
 
-/* Begin PBXContainerItemProxy section */
+/* PBXContainerItemProxy セクション開始 */
 		3129306B263E17D600473CEA /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = F8111E2A19A95C8B0040E7D1 /* Project object */;
+			containerPortal = F8111E2A19A95C8B0040E7D1 /* プロジェクトオブジェクト */;
 			proxyType = 1;
 			remoteGlobalIDString = E4202FCD1B667AA100C997FB;
 			remoteInfo = "Alamofire watchOS";
 		};
 		317338F92A43BE5F00D4EA0A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = F8111E2A19A95C8B0040E7D1 /* Project object */;
+			containerPortal = F8111E2A19A95C8B0040E7D1 /* プロジェクトオブジェクト */;
 			proxyType = 1;
 			remoteGlobalIDString = 317338C32A43A4FA00D4EA0A;
 			remoteInfo = "Alamofire visionOS";
 		};
 		4CF626FA1BA7CB3E0011A099 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = F8111E2A19A95C8B0040E7D1 /* Project object */;
+			containerPortal = F8111E2A19A95C8B0040E7D1 /* プロジェクトオブジェクト */;
 			proxyType = 1;
 			remoteGlobalIDString = 4CF626EE1BA7CB3E0011A099;
 			remoteInfo = "Alamofire tvOS";
 		};
 		F8111E6519A967880040E7D1 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = F8111E2A19A95C8B0040E7D1 /* Project object */;
+			containerPortal = F8111E2A19A95C8B0040E7D1 /* プロジェクトオブジェクト */;
 			proxyType = 1;
 			remoteGlobalIDString = F8111E3219A95C8B0040E7D1;
 			remoteInfo = Alamofire;
 		};
 		F829C6B91A7A94F100A2CD59 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = F8111E2A19A95C8B0040E7D1 /* Project object */;
+			containerPortal = F8111E2A19A95C8B0040E7D1 /* プロジェクトオブジェクト */;
 			proxyType = 1;
 			remoteGlobalIDString = 4DD67C0A1A5C55C900ED2280;
 			remoteInfo = "Alamofire OSX";
 		};
-/* End PBXContainerItemProxy section */
+/* PBXContainerItemProxy セクション終了 */
 
-/* Begin PBXFileReference section */
+/* PBXFileReference セクション開始 */
 		0AEC95C92AF5419400CD241A /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 		3106FB6023F8C53A007FAB43 /* ProtectedTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProtectedTests.swift; sourceTree = "<group>"; };
 		3106FB6423F8D9E0007FAB43 /* DataStreamTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataStreamTests.swift; sourceTree = "<group>"; };
@@ -803,9 +803,9 @@
 		F8AE910119D28DCC0078C7B2 /* ValidationTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ValidationTests.swift; sourceTree = "<group>"; };
 		F8D1C6F419D52968002E74FE /* SessionTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SessionTests.swift; sourceTree = "<group>"; };
 		F8E6024419CB46A800A3E7F1 /* AuthenticationTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthenticationTests.swift; sourceTree = "<group>"; };
-/* End PBXFileReference section */
+/* PBXFileReference セクション終了 */
 
-/* Begin PBXFrameworksBuildPhase section */
+/* PBXFrameworksBuildPhase セクション開始 */
 		31293062263E17D600473CEA /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -881,9 +881,9 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-/* End PBXFrameworksBuildPhase section */
+/* PBXFrameworksBuildPhase セクション終了 */
 
-/* Begin PBXGroup section */
+/* PBXGroup セクション開始 */
 		31181E162794FF9600E88600 /* selfSignedAndMalformedCerts */ = {
 			isa = PBXGroup;
 			children = (
@@ -1275,12 +1275,12 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-/* End PBXGroup section */
+/* PBXGroup セクション終了 */
 
-/* Begin PBXNativeTarget section */
+/* PBXNativeTarget セクション開始 */
 		31293064263E17D600473CEA /* Alamofire watchOS Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3129306F263E17D600473CEA /* Build configuration list for PBXNativeTarget "Alamofire watchOS Tests" */;
+			buildConfigurationList = 3129306F263E17D600473CEA /* PBXNativeTarget のビルド構成リスト: "Alamofire watchOS Tests" */;
 			buildPhases = (
 				31293061263E17D600473CEA /* Sources */,
 				31293062263E17D600473CEA /* Frameworks */,
@@ -1298,7 +1298,7 @@
 		};
 		317338C32A43A4FA00D4EA0A /* Alamofire visionOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 317338CA2A43A4FB00D4EA0A /* Build configuration list for PBXNativeTarget "Alamofire visionOS" */;
+			buildConfigurationList = 317338CA2A43A4FB00D4EA0A /* PBXNativeTarget のビルド構成リスト: "Alamofire visionOS" */;
 			buildPhases = (
 				317338C02A43A4FA00D4EA0A /* Sources */,
 				317338C12A43A4FA00D4EA0A /* Frameworks */,
@@ -1315,7 +1315,7 @@
 		};
 		317338F32A43BE5F00D4EA0A /* Alamofire visionOS Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 317338FB2A43BE5F00D4EA0A /* Build configuration list for PBXNativeTarget "Alamofire visionOS Tests" */;
+			buildConfigurationList = 317338FB2A43BE5F00D4EA0A /* PBXNativeTarget のビルド構成リスト: "Alamofire visionOS Tests" */;
 			buildPhases = (
 				317338F02A43BE5F00D4EA0A /* Sources */,
 				317338F12A43BE5F00D4EA0A /* Frameworks */,
@@ -1333,7 +1333,7 @@
 		};
 		4CF626EE1BA7CB3E0011A099 /* Alamofire tvOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4CF627041BA7CB3E0011A099 /* Build configuration list for PBXNativeTarget "Alamofire tvOS" */;
+			buildConfigurationList = 4CF627041BA7CB3E0011A099 /* PBXNativeTarget のビルド構成リスト: "Alamofire tvOS" */;
 			buildPhases = (
 				4CF626EA1BA7CB3E0011A099 /* Sources */,
 				4CF626EB1BA7CB3E0011A099 /* Frameworks */,
@@ -1350,7 +1350,7 @@
 		};
 		4CF626F71BA7CB3E0011A099 /* Alamofire tvOS Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4CF627051BA7CB3E0011A099 /* Build configuration list for PBXNativeTarget "Alamofire tvOS Tests" */;
+			buildConfigurationList = 4CF627051BA7CB3E0011A099 /* PBXNativeTarget のビルド構成リスト: "Alamofire tvOS Tests" */;
 			buildPhases = (
 				4CF626F41BA7CB3E0011A099 /* Sources */,
 				4CF626F51BA7CB3E0011A099 /* Frameworks */,
@@ -1368,7 +1368,7 @@
 		};
 		4DD67C0A1A5C55C900ED2280 /* Alamofire macOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4DD67C1E1A5C55C900ED2280 /* Build configuration list for PBXNativeTarget "Alamofire macOS" */;
+			buildConfigurationList = 4DD67C1E1A5C55C900ED2280 /* PBXNativeTarget のビルド構成リスト: "Alamofire macOS" */;
 			buildPhases = (
 				4DD67C061A5C55C900ED2280 /* Sources */,
 				4DD67C071A5C55C900ED2280 /* Frameworks */,
@@ -1385,7 +1385,7 @@
 		};
 		E4202FCD1B667AA100C997FB /* Alamofire watchOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E4202FDD1B667AA100C997FB /* Build configuration list for PBXNativeTarget "Alamofire watchOS" */;
+			buildConfigurationList = E4202FDD1B667AA100C997FB /* PBXNativeTarget のビルド構成リスト: "Alamofire watchOS" */;
 			buildPhases = (
 				E4202FCE1B667AA100C997FB /* Sources */,
 				E4202FD91B667AA100C997FB /* Frameworks */,
@@ -1402,7 +1402,7 @@
 		};
 		F8111E3219A95C8B0040E7D1 /* Alamofire iOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F8111E4619A95C8B0040E7D1 /* Build configuration list for PBXNativeTarget "Alamofire iOS" */;
+			buildConfigurationList = F8111E4619A95C8B0040E7D1 /* PBXNativeTarget のビルド構成リスト: "Alamofire iOS" */;
 			buildPhases = (
 				F8111E2E19A95C8B0040E7D1 /* Sources */,
 				F8111E2F19A95C8B0040E7D1 /* Frameworks */,
@@ -1419,7 +1419,7 @@
 		};
 		F8111E3D19A95C8B0040E7D1 /* Alamofire iOS Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F8111E4919A95C8B0040E7D1 /* Build configuration list for PBXNativeTarget "Alamofire iOS Tests" */;
+			buildConfigurationList = F8111E4919A95C8B0040E7D1 /* PBXNativeTarget のビルド構成リスト: "Alamofire iOS Tests" */;
 			buildPhases = (
 				F8111E3A19A95C8B0040E7D1 /* Sources */,
 				F8111E3B19A95C8B0040E7D1 /* Frameworks */,
@@ -1437,7 +1437,7 @@
 		};
 		F829C6B11A7A94F100A2CD59 /* Alamofire macOS Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F829C6BB1A7A94F100A2CD59 /* Build configuration list for PBXNativeTarget "Alamofire macOS Tests" */;
+			buildConfigurationList = F829C6BB1A7A94F100A2CD59 /* PBXNativeTarget のビルド構成リスト: "Alamofire macOS Tests" */;
 			buildPhases = (
 				F829C6AE1A7A94F100A2CD59 /* Sources */,
 				F829C6AF1A7A94F100A2CD59 /* Frameworks */,
@@ -1453,10 +1453,10 @@
 			productReference = F829C6B21A7A94F100A2CD59 /* Alamofire macOS Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-/* End PBXNativeTarget section */
+/* PBXNativeTarget セクション終了 */
 
-/* Begin PBXProject section */
-		F8111E2A19A95C8B0040E7D1 /* Project object */ = {
+/* PBXProject セクション開始 */
+		F8111E2A19A95C8B0040E7D1 /* プロジェクトオブジェクト */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = YES;
@@ -1504,7 +1504,7 @@
 					};
 				};
 			};
-			buildConfigurationList = F8111E2D19A95C8B0040E7D1 /* Build configuration list for PBXProject "Alamofire" */;
+			buildConfigurationList = F8111E2D19A95C8B0040E7D1 /* PBXProject のビルド構成リスト: "Alamofire" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -1529,9 +1529,9 @@
 				317338F32A43BE5F00D4EA0A /* Alamofire visionOS Tests */,
 			);
 		};
-/* End PBXProject section */
+/* PBXProject セクション終了 */
 
-/* Begin PBXResourcesBuildPhase section */
+/* PBXResourcesBuildPhase セクション開始 */
 		31293063263E17D600473CEA /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1762,9 +1762,9 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-/* End PBXResourcesBuildPhase section */
+/* PBXResourcesBuildPhase セクション終了 */
 
-/* Begin PBXSourcesBuildPhase section */
+/* PBXSourcesBuildPhase セクション開始 */
 		31293061263E17D600473CEA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -2270,9 +2270,9 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-/* End PBXSourcesBuildPhase section */
+/* PBXSourcesBuildPhase セクション終了 */
 
-/* Begin PBXTargetDependency section */
+/* PBXTargetDependency セクション開始 */
 		3129306C263E17D600473CEA /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = E4202FCD1B667AA100C997FB /* Alamofire watchOS */;
@@ -2298,9 +2298,9 @@
 			target = 4DD67C0A1A5C55C900ED2280 /* Alamofire macOS */;
 			targetProxy = F829C6B91A7A94F100A2CD59 /* PBXContainerItemProxy */;
 		};
-/* End PBXTargetDependency section */
+/* PBXTargetDependency セクション終了 */
 
-/* Begin XCBuildConfiguration section */
+/* XCBuildConfiguration セクション開始 */
 		3129306D263E17D600473CEA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -2828,10 +2828,10 @@
 			};
 			name = Release;
 		};
-/* End XCBuildConfiguration section */
+/* XCBuildConfiguration セクション終了 */
 
-/* Begin XCConfigurationList section */
-		3129306F263E17D600473CEA /* Build configuration list for PBXNativeTarget "Alamofire watchOS Tests" */ = {
+/* XCConfigurationList セクション開始 */
+		3129306F263E17D600473CEA /* PBXNativeTarget のビルド構成リスト: "Alamofire watchOS Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3129306D263E17D600473CEA /* Debug */,
@@ -2840,7 +2840,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		317338CA2A43A4FB00D4EA0A /* Build configuration list for PBXNativeTarget "Alamofire visionOS" */ = {
+		317338CA2A43A4FB00D4EA0A /* PBXNativeTarget のビルド構成リスト: "Alamofire visionOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				317338C82A43A4FB00D4EA0A /* Debug */,
@@ -2849,7 +2849,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		317338FB2A43BE5F00D4EA0A /* Build configuration list for PBXNativeTarget "Alamofire visionOS Tests" */ = {
+		317338FB2A43BE5F00D4EA0A /* PBXNativeTarget のビルド構成リスト: "Alamofire visionOS Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				317338FC2A43BE5F00D4EA0A /* Debug */,
@@ -2858,7 +2858,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4CF627041BA7CB3E0011A099 /* Build configuration list for PBXNativeTarget "Alamofire tvOS" */ = {
+		4CF627041BA7CB3E0011A099 /* PBXNativeTarget のビルド構成リスト: "Alamofire tvOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4CF627001BA7CB3E0011A099 /* Debug */,
@@ -2867,7 +2867,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4CF627051BA7CB3E0011A099 /* Build configuration list for PBXNativeTarget "Alamofire tvOS Tests" */ = {
+		4CF627051BA7CB3E0011A099 /* PBXNativeTarget のビルド構成リスト: "Alamofire tvOS Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4CF627021BA7CB3E0011A099 /* Debug */,
@@ -2876,7 +2876,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4DD67C1E1A5C55C900ED2280 /* Build configuration list for PBXNativeTarget "Alamofire macOS" */ = {
+		4DD67C1E1A5C55C900ED2280 /* PBXNativeTarget のビルド構成リスト: "Alamofire macOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4DD67C1F1A5C55C900ED2280 /* Debug */,
@@ -2885,7 +2885,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E4202FDD1B667AA100C997FB /* Build configuration list for PBXNativeTarget "Alamofire watchOS" */ = {
+		E4202FDD1B667AA100C997FB /* PBXNativeTarget のビルド構成リスト: "Alamofire watchOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E4202FDE1B667AA100C997FB /* Debug */,
@@ -2894,7 +2894,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F8111E2D19A95C8B0040E7D1 /* Build configuration list for PBXProject "Alamofire" */ = {
+		F8111E2D19A95C8B0040E7D1 /* PBXProject のビルド構成リスト: "Alamofire" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F8111E4419A95C8B0040E7D1 /* Debug */,
@@ -2903,7 +2903,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F8111E4619A95C8B0040E7D1 /* Build configuration list for PBXNativeTarget "Alamofire iOS" */ = {
+		F8111E4619A95C8B0040E7D1 /* PBXNativeTarget のビルド構成リスト: "Alamofire iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F8111E4719A95C8B0040E7D1 /* Debug */,
@@ -2912,7 +2912,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F8111E4919A95C8B0040E7D1 /* Build configuration list for PBXNativeTarget "Alamofire iOS Tests" */ = {
+		F8111E4919A95C8B0040E7D1 /* PBXNativeTarget のビルド構成リスト: "Alamofire iOS Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F8111E4A19A95C8B0040E7D1 /* Debug */,
@@ -2921,7 +2921,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F829C6BB1A7A94F100A2CD59 /* Build configuration list for PBXNativeTarget "Alamofire macOS Tests" */ = {
+		F829C6BB1A7A94F100A2CD59 /* PBXNativeTarget のビルド構成リスト: "Alamofire macOS Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F829C6BC1A7A94F100A2CD59 /* Debug */,
@@ -2930,7 +2930,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-/* End XCConfigurationList section */
+/* XCConfigurationList セクション終了 */
 	};
-	rootObject = F8111E2A19A95C8B0040E7D1 /* Project object */;
+	rootObject = F8111E2A19A95C8B0040E7D1 /* プロジェクトオブジェクト */;
 }
