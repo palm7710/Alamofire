@@ -2,6 +2,7 @@
 <Scheme
    LastUpgradeVersion = "2620"
    version = "1.7">
+   <!-- Alamofire iOS フレームワークとテストターゲットをどの用途でビルドするかを定義します。 -->
    <BuildAction
       parallelizeBuildables = "YES"
       buildImplicitDependencies = "YES">
@@ -36,6 +37,7 @@
          </BuildActionEntry>
       </BuildActionEntries>
    </BuildAction>
+   <!-- Debug 構成で iOS テストを実行し、Alamofire.framework のコードカバレッジを取得します。 -->
    <TestAction
       buildConfiguration = "Debug"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
@@ -87,6 +89,7 @@
          </TestableReference>
       </Testables>
    </TestAction>
+   <!-- Debug 構成で Alamofire iOS を実行するときのデバッガーと起動オプションを定義します。 -->
    <LaunchAction
       buildConfiguration = "Debug"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
@@ -109,6 +112,7 @@
          </BuildableReference>
       </MacroExpansion>
    </LaunchAction>
+   <!-- Release 構成でパフォーマンス計測するときの対象ターゲットを定義します。 -->
    <ProfileAction
       buildConfiguration = "Release"
       shouldUseLaunchSchemeArgsEnv = "YES"
@@ -125,9 +129,11 @@
          </BuildableReference>
       </MacroExpansion>
    </ProfileAction>
+   <!-- 静的解析を Debug 構成で実行する設定です。 -->
    <AnalyzeAction
       buildConfiguration = "Debug">
    </AnalyzeAction>
+   <!-- アーカイブを Release 構成で作成し、完了後に Organizer に表示する設定です。 -->
    <ArchiveAction
       buildConfiguration = "Release"
       revealArchiveInOrganizer = "YES">
