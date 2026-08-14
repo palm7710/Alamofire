@@ -24,21 +24,32 @@
 
 import UIKit
 
+// この Example アプリの起動入口です。
+// アプリ起動時の初期設定と、Split View の表示切り替えを担当します。
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate, UISplitViewControllerDelegate {
     // MARK: - Properties
 
+    // アプリの画面全体を管理するウィンドウです。
     var window: UIWindow?
 
     // MARK: - UIApplicationDelegate
 
     func application(_ application: UIApplication,
                      didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]? = nil) -> Bool {
+        // Storyboard で設定された最初の画面を Split View Controller として取得します。
         let splitViewController = window!.rootViewController as! UISplitViewController
+
+        // 右側の詳細画面を包んでいる Navigation Controller を取得します。
         let navigationController = splitViewController.viewControllers.last as! UINavigationController
+
+        // 画面が狭いときにマスター画面を表示するためのボタンを、詳細画面の左上に追加します。
         navigationController.topViewController!.navigationItem.leftBarButtonItem = splitViewController.displayModeButtonItem
+
+        // Split View の折りたたみ動作をこの AppDelegate で制御できるようにします。
         splitViewController.delegate = self
 
+        // true を返すと、アプリの起動処理が正常に完了したことを iOS に伝えます。
         return true
     }
 
@@ -48,12 +59,15 @@ class AppDelegate: UIResponder, UIApplicationDelegate, UISplitViewControllerDele
                              collapseSecondary secondaryViewController: UIViewController,
                              onto primaryViewController: UIViewController)
         -> Bool {
+        // iPhone など画面が狭い環境では、Split View の右側画面を左側画面へ統合します。
+        // 右側の詳細画面に表示するリクエストがまだ無い場合は、空の詳細画面を閉じます。
         if
             let secondaryAsNavController = secondaryViewController as? UINavigationController,
             let topAsDetailController = secondaryAsNavController.topViewController as? DetailViewController {
             return topAsDetailController.request == nil
         }
 
+        // 想定した詳細画面ではない場合は、標準の折りたたみ処理に任せます。
         return false
     }
 }
