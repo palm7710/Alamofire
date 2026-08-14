@@ -41,11 +41,11 @@ class DetailViewController: UITableViewController {
             oldValue?.cancel()
 
             // ナビゲーションバーのタイトルに、現在のリクエスト内容を表示します。
-            title = request?.description
+            title = request.map(String.init(describing:))
 
             // URLRequest が作られたタイミングで、より詳しいリクエスト説明にタイトルを更新します。
             request?.onURLRequestCreation { [weak self] _ in
-                self?.title = self?.request?.description
+                self?.title = self?.request.map(String.init(describing:))
             }
 
             // 画面に出ている前回の結果を消して、次の通信結果を待つ状態にします。
